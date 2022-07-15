@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import './colors.scss';
 
 // common
 *{
@@ -34,4 +35,5 @@ ul{
 .btn{
     padding: 12px 30px;
     border-radius: 20px;
+    color: $main_color_white;
 }

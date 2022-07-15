@@ -61,6 +61,9 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/styles/colors';
+.header-bottom{
+    background-color: $main_color_white;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -92,8 +95,11 @@ export default {
 
         .btn{
             background-color: #00D9A6;
-            color: $main_color_white;
             margin-right: 20px;
+        }
+
+        i{
+            color: #00D9A6;
         }
     }
 }
