@@ -6,7 +6,7 @@
                     We Are Here To
                     Make Your <span class="green">Website</span>
                     Look More <span class="green">Elegant</span>
-                    And Stulish!
+                    And Stylish!
                 </h2>
 
                 <div class="btn">
@@ -75,6 +75,7 @@ section{
     .container{
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         .left{
             width: 35%;

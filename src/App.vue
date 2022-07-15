@@ -9,6 +9,7 @@
     <main>
       <JumboTron/>
       <ProductPresentation/>
+      <LearnComponent/>
     </main>
 
     <!-- FOOTER -->
@@ -22,13 +23,15 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import JumboTron from './components/JumboTron.vue'
 import ProductPresentation from './components/ProductPresentation.vue'
+import LearnComponent from './components/LearnComponent.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     JumboTron,
-    ProductPresentation
+    ProductPresentation,
+    LearnComponent
   },
 }
 </script>
