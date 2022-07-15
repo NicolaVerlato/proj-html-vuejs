@@ -9,9 +9,9 @@
                     Focus on Your 
                     <div class="green">Business</div>    
                 </h1>
-                <div class="text">
+                <p class="text">
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separeted they lived in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Separeted they lived in Bookmarksgrove.
-                </div>
+                </p>
                 <div class="btn">
                     <a href="#">
                         READ MORE
@@ -58,6 +58,7 @@ export default {
 @import '../assets/styles/colors';
 section{
     background-color: $background-color-grey;
+    overflow: hidden;
 }
 .container{
     display: flex;
@@ -85,8 +86,8 @@ section{
 
             &::after{
                 content: '';
-                width: 30px;
-                height: 2px;
+                width: 40px;
+                height: 3px;
                 background-color: $secondary_green;
                 display: inline-block;
             }
@@ -94,15 +95,12 @@ section{
 
         .text{
             font-size: 12px;
-            color: #888888;
+            color: $text_grey;
             line-height: 18px;
             padding: 40px 0;
         }
         .btn{
             background-color: $btn_black;
-            font-size: 12px;
-            width: 130px;
-            text-align: center;
         }
         .socials{
             font-size: 12px;

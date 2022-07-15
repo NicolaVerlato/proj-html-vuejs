@@ -2,8 +2,7 @@
     <div class="header-bottom">
         <div class="container">
             <div class="left">
-                <img src="../assets/images/cropped-icon-32x32.png" alt="logo">
-                Pholx | Business
+                <img src="../assets/images/cropped-Group-39-2x.png" alt="logo">
             </div>
             <div class="center">
                 <ul>
@@ -71,15 +70,10 @@ export default {
     padding: 20px 0;
     font-size: 11px;
 
-    .left{
-        display: flex;
-        align-items: center;
-
-        img{
-            width: 40px;
+    .left img{
+            width: 140px;
             margin-right: 10px;
         }
-    }
 
     .center ul{
         display: flex;

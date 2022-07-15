@@ -8,6 +8,7 @@
     <!-- MAIN -->
     <main>
       <JumboTron/>
+      <ProductPresentation/>
     </main>
 
     <!-- FOOTER -->
@@ -20,23 +21,19 @@
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import JumboTron from './components/JumboTron.vue'
+import ProductPresentation from './components/ProductPresentation.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    JumboTron
+    JumboTron,
+    ProductPresentation
   },
 }
 </script>
 
 <style lang="scss">
 @import './assets/styles/common';
-header{
-  position: relative;
-  z-index: 1;
-}
-main{
-  overflow-x: hidden;
-}
+
 </style>
