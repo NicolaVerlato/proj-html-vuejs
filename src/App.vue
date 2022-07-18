@@ -21,6 +21,7 @@
     <!-- FOOTER -->
     <footer>
       <FooterTop/>
+      <FooterBottom/>
     </footer>
   </div>
 </template>
@@ -37,6 +38,7 @@ import CommentComponent from './components/CommentComponent.vue'
 import NewsBlog from './components/NewsBlog.vue'
 import SponsorComponent from './components/SponsorComponent.vue'
 import FooterTop from './components/FooterTop.vue'
+import FooterBottom from './components/FooterBottom.vue'
 
 export default {
   name: 'App',
@@ -51,7 +53,8 @@ export default {
     CommentComponent,
     NewsBlog,
     SponsorComponent,
-    FooterTop
+    FooterTop,
+    FooterBottom
   },
 }
 </script>
