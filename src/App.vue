@@ -15,6 +15,7 @@
       <ProductPrices/>
       <CommentComponent/>
       <NewsBlog/>
+      <SponsorComponent/>
     </main>
 
     <!-- FOOTER -->
@@ -34,6 +35,7 @@ import WhatWeDo from './components/WhatWeDo.vue'
 import ProductPrices from './components/ProductPrices.vue'
 import CommentComponent from './components/CommentComponent.vue'
 import NewsBlog from './components/NewsBlog.vue'
+import SponsorComponent from './components/SponsorComponent.vue'
 
 export default {
   name: 'App',
@@ -46,7 +48,8 @@ export default {
     WhatWeDo,
     ProductPrices,
     CommentComponent,
-    NewsBlog
+    NewsBlog,
+    SponsorComponent
   },
 }
 </script>
