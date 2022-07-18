@@ -20,7 +20,7 @@
 
     <!-- FOOTER -->
     <footer>
-
+      <FooterTop/>
     </footer>
   </div>
 </template>
@@ -36,6 +36,7 @@ import ProductPrices from './components/ProductPrices.vue'
 import CommentComponent from './components/CommentComponent.vue'
 import NewsBlog from './components/NewsBlog.vue'
 import SponsorComponent from './components/SponsorComponent.vue'
+import FooterTop from './components/FooterTop.vue'
 
 export default {
   name: 'App',
@@ -49,7 +50,8 @@ export default {
     ProductPrices,
     CommentComponent,
     NewsBlog,
-    SponsorComponent
+    SponsorComponent,
+    FooterTop
   },
 }
 </script>
