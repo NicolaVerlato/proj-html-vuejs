@@ -80,10 +80,6 @@ section{
         h1{
             font-size: 50px;
 
-            .green{
-                color: $secondary_green;
-            }
-
             &::after{
                 content: '';
                 width: 40px;

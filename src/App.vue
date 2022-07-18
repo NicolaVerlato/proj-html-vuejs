@@ -11,6 +11,7 @@
       <ProductPresentation/>
       <LearnComponent/>
       <ExamplesProj/>
+      <WhatWeDo/>
     </main>
 
     <!-- FOOTER -->
@@ -26,6 +27,7 @@ import JumboTron from './components/JumboTron.vue'
 import ProductPresentation from './components/ProductPresentation.vue'
 import LearnComponent from './components/LearnComponent.vue'
 import ExamplesProj from './components/ExamplesProj.vue'
+import WhatWeDo from './components/WhatWeDo.vue'
 
 export default {
   name: 'App',
@@ -34,7 +36,8 @@ export default {
     JumboTron,
     ProductPresentation,
     LearnComponent,
-    ExamplesProj
+    ExamplesProj,
+    WhatWeDo
   },
 }
 </script>

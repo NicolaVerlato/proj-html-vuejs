@@ -71,9 +71,6 @@ section{
             font-weight: 300;
             padding-right: 50px;
 
-            .green{
-                color: $secondary_green;
-            }
             &::after{
                 content: '';
                 width: 40px;

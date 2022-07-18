@@ -73,10 +73,6 @@ section{
                 background-color: $secondary_green;
                 display: block;
             }
-
-            .green{
-                color: $secondary_green;
-            }
         }
 
         .text{
