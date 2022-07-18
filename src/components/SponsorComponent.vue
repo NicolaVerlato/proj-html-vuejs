@@ -21,7 +21,9 @@
                     <h2>Let's Talk About Work</h2>
 
                     <div class="btn">
-                        START NOW
+                        <a href="#">
+                            START NOW
+                        </a>
                     </div>
                 </div>
             </div>
@@ -66,6 +68,7 @@ section{
 
         .start{
             background-color: $main_color_black;
+            background-image: linear-gradient(to right, #555555, $main_color_black);
             color: $main_color_white;
             width: 49%;
             border-radius: 10px;
@@ -97,6 +100,7 @@ section{
 
         .about{
             background-color: $main_color_green;
+            background-image: linear-gradient(to right, $main_color_green , lightgreen);
             color: $main_color_white;
             width: 49%;
             border-radius: 10px;
@@ -105,6 +109,8 @@ section{
             .btn{
                 margin: auto;
                 background-color: $main_color_black;
+                background-image: linear-gradient(to right, #555555, $main_color_black);
+                box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
             }
         }
     }

@@ -90,6 +90,8 @@ section{
         
         .btn{
             background-color: $main_color_green;
+            background-image: linear-gradient(to right, lightgreen, $main_color_green);
+            box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
             margin-top: 20px;
         }
     }

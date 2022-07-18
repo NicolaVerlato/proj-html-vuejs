@@ -37,6 +37,7 @@ export default {
 section{
     padding: 100px 0;
     background-image: url(../assets/images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg);
+    background-color: grey;
     background-size: cover;
     background-position: center;
     

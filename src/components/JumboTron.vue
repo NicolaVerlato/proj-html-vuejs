@@ -97,6 +97,8 @@ section{
         }
         .btn{
             background-color: $btn_black;
+            background-image: linear-gradient(to right, #555555, $main_color_black);
+            box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
         }
         .socials{
             font-size: 12px;

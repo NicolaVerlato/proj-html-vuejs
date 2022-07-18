@@ -169,6 +169,7 @@ section{
 
             .price{
                 background-color: $main_color_black;
+                background-image: linear-gradient(to right, #555555, $main_color_black);
                 padding: 1px 0;
                 border-radius: 10px 10px 0 0;
 
@@ -191,7 +192,7 @@ section{
             }
 
             .no-black{
-                background-color: $main_color_green;
+                background-image: linear-gradient(to right, lightgreen, $main_color_green);
             }
         }
 

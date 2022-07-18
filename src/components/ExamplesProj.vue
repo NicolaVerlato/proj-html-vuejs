@@ -12,14 +12,62 @@
         </div>
 
         <div class="images">
-            <img src="../assets/images/ina-soulis-227104-unsplash-1024x1024.jpg" alt="flowers">
-            <img src="../assets/images/sunisa-misa-531163-unsplash-1024x1024.jpg" alt="ferris wheel">
-            <img src="../assets/images/355H-1024x1024.jpg" alt="shoes">
-            <img src="../assets/images/photo-1448932252197-d19750584e56-1024x1024.jpg" alt="man">
-            <img src="../assets/images/business-competition-PB366D8-1024x1024.jpg" alt="origami">
-            <img src="../assets/images/cozy-sofa-in-living-room-PQR5AB9-1024x1024.jpg" alt="sofa">
-            <img src="../assets/images/aa9a4539-PQGJ7HU-1024x1024.jpg" alt="hot air baloon">
-            <img src="../assets/images/cody-davis-253928-unsplash-1024x1024.jpg" alt="orange">
+            <div class="img">
+                <img src="../assets/images/ina-soulis-227104-unsplash-1024x1024.jpg" alt="flowers">
+
+                <div class="img-text">
+                    Flowers
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/sunisa-misa-531163-unsplash-1024x1024.jpg" alt="ferris wheel">
+
+                <div class="img-text">
+                    Ferris wheel
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/355H-1024x1024.jpg" alt="shoes">
+
+                <div class="img-text">
+                    Shoes
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/photo-1448932252197-d19750584e56-1024x1024.jpg" alt="man">
+
+                <div class="img-text">
+                    Man
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/business-competition-PB366D8-1024x1024.jpg" alt="origami">
+
+                <div class="img-text">
+                    Origami
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/cozy-sofa-in-living-room-PQR5AB9-1024x1024.jpg" alt="sofa">
+
+                <div class="img-text">
+                    Sofa
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/aa9a4539-PQGJ7HU-1024x1024.jpg" alt="hot air baloon">
+
+                <div class="img-text">
+                    Hot Air Baloon
+                </div>
+            </div>
+            <div class="img">
+                <img src="../assets/images/cody-davis-253928-unsplash-1024x1024.jpg" alt="orange">
+
+                <div class="img-text">
+                    Orange
+                </div>
+            </div>
         </div>
 
         <div class="btn">
@@ -87,15 +135,40 @@ section{
         display: flex;
         flex-wrap: wrap;
 
-        img{
+        .img{
             width: calc(25% - 8px);
             margin: 4px;
-            border-radius: 5px;
+            position: relative;
+
+            .img-text{
+                display: none;
+                position: absolute;
+                bottom: 5px;
+                left: 10px;
+            }
+
+            img{
+                border-radius: 5px;
+            }
+
+            &:hover{
+                transform: scale(1.1);
+                transition-duration: 0.5s;
+                
+
+                .img-text{
+                    display: block;
+                    width: 100%;
+                    background-image: linear-gradient(to right, lightgreen, $main_color_green);
+                }
+            }
         }
     }
 
     .btn{
         background-color: $main_color_green;
+        background-image: linear-gradient(to right, lightgreen, $main_color_green);
+        box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
         margin: 70px auto;
     }
 

@@ -111,6 +111,8 @@ section{
 
     .btn{
         background-color: $main_color_black;
+        background-image: linear-gradient(to right, #555555, $main_color_black);
+        box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
         width: 170px;
         margin-top: 100px;
         margin: 100px auto;

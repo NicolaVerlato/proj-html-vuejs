@@ -90,6 +90,8 @@ export default {
         .btn{
             background-color: #00D9A6;
             margin-right: 20px;
+            background-image: linear-gradient(to right, lightgreen, $main_color_green);
+            box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
         }
 
         i{
