@@ -12,6 +12,7 @@
       <LearnComponent/>
       <ExamplesProj/>
       <WhatWeDo/>
+      <ProductPrices/>
     </main>
 
     <!-- FOOTER -->
@@ -28,6 +29,7 @@ import ProductPresentation from './components/ProductPresentation.vue'
 import LearnComponent from './components/LearnComponent.vue'
 import ExamplesProj from './components/ExamplesProj.vue'
 import WhatWeDo from './components/WhatWeDo.vue'
+import ProductPrices from './components/ProductPrices.vue'
 
 export default {
   name: 'App',
@@ -37,7 +39,8 @@ export default {
     ProductPresentation,
     LearnComponent,
     ExamplesProj,
-    WhatWeDo
+    WhatWeDo,
+    ProductPrices
   },
 }
 </script>
