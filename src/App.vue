@@ -14,6 +14,7 @@
       <WhatWeDo/>
       <ProductPrices/>
       <CommentComponent/>
+      <NewsBlog/>
     </main>
 
     <!-- FOOTER -->
@@ -32,6 +33,7 @@ import ExamplesProj from './components/ExamplesProj.vue'
 import WhatWeDo from './components/WhatWeDo.vue'
 import ProductPrices from './components/ProductPrices.vue'
 import CommentComponent from './components/CommentComponent.vue'
+import NewsBlog from './components/NewsBlog.vue'
 
 export default {
   name: 'App',
@@ -43,7 +45,8 @@ export default {
     ExamplesProj,
     WhatWeDo,
     ProductPrices,
-    CommentComponent
+    CommentComponent,
+    NewsBlog
   },
 }
 </script>

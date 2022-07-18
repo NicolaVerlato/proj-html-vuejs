@@ -96,8 +96,7 @@ section{
 
     .btn{
         background-color: $main_color_green;
-        margin-top: 20px;
-        margin-top: 70px;
+        margin: 70px auto;
     }
 
     .side{
