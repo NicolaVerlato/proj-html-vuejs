@@ -45,10 +45,14 @@ section{
     .images{
         width: 65%;
 
-        .image-green img{
-            border-radius: 0 20px 20px 0;
-            width: 600px;
-        }
+        .image-green{
+            img{
+                border-radius: 0 20px 20px 0;
+                width: 600px;
+                // filter: brightness(50%);
+                background-image: linear-gradient(to right, lightgreen, $main_color_green);
+            }
+        } 
         .img{
             position: absolute;
             top: 200px;

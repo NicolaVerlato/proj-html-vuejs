@@ -143,8 +143,9 @@ section{
             .img-text{
                 display: none;
                 position: absolute;
-                bottom: 5px;
-                left: 10px;
+                bottom: 25px;
+                left: 15px;
+                width: 100%;
             }
 
             img{
@@ -154,12 +155,17 @@ section{
             &:hover{
                 transform: scale(1.1);
                 transition-duration: 0.5s;
+                z-index: 2;
+                cursor: pointer;
                 
+                img{
+                    background-image: linear-gradient(to right, lightgreen, $main_color_green);
+                    filter: brightness(50%);
+                }
 
                 .img-text{
                     display: block;
-                    width: 100%;
-                    background-image: linear-gradient(to right, lightgreen, $main_color_green);
+                    color: white;
                 }
             }
         }

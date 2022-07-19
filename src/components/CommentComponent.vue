@@ -37,9 +37,10 @@ export default {
 section{
     padding: 100px 0;
     background-image: url(../assets/images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg);
-    background-color: grey;
+    background-color: #444444;
     background-size: cover;
     background-position: center;
+    background-blend-mode: multiply;
     
     .container{
         width: 60%;
@@ -48,6 +49,10 @@ section{
 
         .icon{
             margin-bottom: 30px;
+
+            i{
+                font-size: 30px;
+            }
         }
 
         p{
